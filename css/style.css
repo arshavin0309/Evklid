@@ -51,6 +51,7 @@ ul {
   color: var(--color-discription);
   transition: background-color .3s ease;
   border: 0;
+  cursor: pointer;
 }
 
 .btn_transparent {
@@ -62,6 +63,7 @@ ul {
   outline-color: var(--font-color);
   line-height: 18px;
   transition: background-color .3s ease;
+  cursor: pointer;
 }
 
 .btn_transparent:hover {
@@ -193,7 +195,7 @@ ul {
 .header__btn:focus {
   outline-color: var(--color-btn);
 }
-  
+
 .header__btn:focus rect {
   fill: var(--color-btn);
 }
@@ -884,7 +886,7 @@ ul {
   .how-we-work__btn-more {
     margin-top: 5px;
   }
-  
+
   .how-we-work__discription {
     margin-bottom: 30px;
   }
@@ -945,7 +947,7 @@ ul {
   .header__container {
     height: 69px;
   }
-  
+
   .header__right {
     top: 70px;
   }
