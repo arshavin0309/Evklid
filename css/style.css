@@ -47,7 +47,7 @@ ul {
 }
 
 .btn {
-  padding: 25px 37px;
+  padding: 25px 39px;
   display: inline-block;
   font-size: 16px;
   line-height: 20px;
@@ -230,16 +230,19 @@ header {
 .banner__box_1{
   background: url('../img/low-angle.webp') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .banner__box_2 {
   background: url('../img/brown-and-blue-glass-building-2093076\ 1.webp') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .banner__box_3 {
   background: url('../img/apartment-apartment-building-architecture-building-323705\ 1.webp') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .banner__card {
@@ -345,6 +348,7 @@ header {
   border: 1px solid #E5E5E5;
   background-image: url('../img/Rectangle\ 2.webp');
   background-size: cover;
+  background-position: center;
 }
 
 .pazzle__left__block {
@@ -498,20 +502,24 @@ header {
 .how-we-work__block-right_1 {
   background: url('../img/block1.webp');
   background-size: cover;
+  background-position: center;
 }
 
 .how-we-work__block-right_2 {
   background: url('../img/block2.webp');
+  background-position: center;
 }
 
 
 .how-we-work__block-right_3 {
   background: url('../img/block3.webp');
+  background-position: center;
 }
 
 
 .how-we-work__block-right_4 {
   background: url('../img/block4.webp');
+  background-position: center;
 }
 
 
@@ -873,18 +881,19 @@ header {
   }
 
   .banner__card {
-    margin: 0 45px;
-    margin-top: 160px;
+    margin: 0 77px;
+    margin-top: 161px;
     margin-bottom: 90px;
   }
 
   .banner__title {
     font-size: 60px;
-    line-height: 70px;
+    line-height: 71px;
   }
 
   .banner__discription {
-    margin-top: 15px;
+    margin-top: 19px;
+    margin-bottom: 46px;
     max-width: 660px;
     font-size: 20px;
     line-height: 24px;
@@ -895,20 +904,29 @@ header {
     margin-bottom: 115px;
   }
 
+  .swiper {
+    min-height: 667px;
+  }
+
   .about-us__title {
-    margin-top: 60px;
+    margin-top: 79px;
+  }
+
+  .about-us__discription {
+    margin-top: 11px;
   }
 
   .pazzle-container {
-    margin-top: 65px;
+    margin-top: 62px;
   }
 
   .pazzle__box {
-    padding: 60px 105px 60px 352px;
-    background-position: 112px center;
+    padding: 60px 105px 60px 316px;
+    background-position: 77px center;
   }
 
   .pazzle__left__discription {
+    padding-right: 90px;
     font-weight: bold;
     font-size: 16px;
     line-height: 32px;
@@ -924,19 +942,24 @@ header {
   }
 
   .pazzle__left__block {
-    padding: 40px 50px 40px 40px;
+    padding: 40px 50px 40px 50px;
+  }
+
+  .pazzle__left__btn {
+    padding: 17px 34px;
   }
 
   .pazzle__box_up {
-    margin-top: 50px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
   .how-we-work__main-title {
-    margin-top: 68px;
+    margin-top: 80px;
   }
 
   .how-we-work__list {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
   }
 
   .how-we-work__btn-more {
@@ -944,33 +967,44 @@ header {
   }
 
   .how-we-work__discription {
-    margin-bottom: 30px;
+    margin-bottom: 22px;
   }
 
   .questions {
-    margin-top: 55px;
+    margin-top: 82px;
   }
 
   .questions__list {
-    margin-top: 40px;
-    margin-bottom: 55px;
+    margin-top: 31px;
+    margin-bottom: 80px;
   }
 
   .questions__discriptions {
-    padding: 35px 0;
+    max-width: 750px;
+    padding: 39px 0;
+    font-size: 20px;
+    line-height: 27px;
   }
 
   .footer__container {
-    padding: 55px 50px 80px 50px;
+    padding: 50px 50px 80px 50px;
   }
 
   .footer__center__title {
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 25px;
   }
 
+  .footer__left {
+    min-width: 251px;
+  }
+
   .footer__left__list {
-    margin-top: 5px;
+    margin-top: 16px;
+  }
+
+  .footer__social {
+    margin-top: 90px;
   }
 
   .footer__item:not(:last-child) {
@@ -978,25 +1012,31 @@ header {
   }
 
   .footer__center {
-    max-width: 530px;
+    min-width: 540px;
+    margin-left: 132px;
   }
 
   .form__item {
     height: 60px;
   }
 
+  .form__item_area {
+    height: 150px;
+  }
+
   .form__item::placeholder {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
+    font-weight: normal;
   }
 
   .form__btn {
-    padding: 20px 40px;
+    padding: 18px 43px;
   }
 
-  /* .form__item_area {
-    height: 150px;
-  } */
+  .form__down {
+    margin-top: 33px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1008,20 +1048,45 @@ header {
     top: 70px;
   }
 
+  .banner {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   .banner-container {
     padding: 0;
   }
 
   .banner__card {
-    margin-top: 195px;
+    margin-top: 157px;
+    margin-left: 37px;
+    margin-right: 90px;
+  }
+
+  .banner__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .banner__discription {
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .banner__btn {
-    padding: 25px 50px;
+    padding: 25px 41px;
+  }
+
+  .swiper {
+    min-height: 660px;
+  }
+
+  .pazzle__left {
+    min-height: 650px;
   }
 
   .pazzle__left__block {
-    padding: 20px 28px 15px 30px;
+    padding: 20px 38px 20px 38px;
   }
 
   .pazzle__left__btn {
@@ -1029,18 +1094,22 @@ header {
   }
 
   .pazzle__box {
-    padding: 25px 30px 38px 180px;
+    padding: 30px 30px 38px 169px;
     background-size: 17%;
-    min-height: 230px;
+    height: 233px;
     background-position: 35px center;
   }
 
   .pazzle__box_up {
-    margin-bottom: 40px;
+    margin-bottom: 34px;
+  }
+
+  .pazzle__left__discription {
+    padding-right: 17px;
   }
 
   .how-we-work__main-title {
-    margin-top: 55px;
+    margin-top: 82px;
   }
 
   .how-we-work__block {
@@ -1065,11 +1134,15 @@ header {
     margin-bottom: 50px;
   }
 
+  .how-we-work__step {
+    padding: 0;
+  }
+
   .questions__discriptions {
-    padding: 32px 0;
+    padding: 39px 0;
     max-width: 570px;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 24px;
     font-weight: bold;
   }
 
@@ -1086,11 +1159,12 @@ header {
   }
 
   .form__btn  {
-    padding: 20px 40px;
+    padding: 18px 44px;
+    margin-top: 0;
   }
 
   .footer__logo{
-    margin-top: 60px;
+    margin-top: 48px;
   }
 
   .footer__social  {
@@ -1101,9 +1175,17 @@ header {
     margin-right: 20px;
   }
 
+  .footer__center {
+    margin-left: 0;
+  }
+
   .footer__center__title {
-    margin-top: 8px;
+    margin-top: 5px;
     margin-bottom: 25px;
+  }
+
+  .form__down {
+    margin-top: 31px;
   }
 }
 
@@ -1265,6 +1347,7 @@ header {
 
   .how-we-work__block-right {
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
