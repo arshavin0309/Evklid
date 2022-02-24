@@ -392,7 +392,7 @@ header {
 }
 
 .pazzle__box {
-  height: 295px;
+  min-height: 295px;
   padding: 60px 90px 60px 300px;
   border: 1px solid #E5E5E5;
 }
@@ -496,7 +496,7 @@ header {
 
 .how-we-work__block-right {
   width: 50%;
-  background-size: contain;
+  /* background-size: contain; */
 }
 
 .how-we-work__block-right_1 {
@@ -1012,7 +1012,8 @@ header {
   }
 
   .footer__center {
-    min-width: 540px;
+    /* min-width: 540px; */
+    min-width: 290px;
     margin-left: 132px;
   }
 
@@ -1096,12 +1097,12 @@ header {
   .pazzle__box {
     padding: 30px 30px 38px 169px;
     background-size: 17%;
-    height: 233px;
+    min-height: 233px;
     background-position: 35px center;
   }
 
   .pazzle__box_up {
-    margin-bottom: 34px;
+    margin-bottom: 26px;
   }
 
   .pazzle__left__discription {
@@ -1195,12 +1196,7 @@ header {
   }
 
   .header__container {
-    height: 40px;
-    flex-direction: row-reverse;
-  }
-
-  .header__nav {
-    display: none;
+    height: 67px;
   }
 
   .header__nav_active {
@@ -1209,10 +1205,6 @@ header {
 
   .header__burger {
     margin-top: 6px;
-  }
-
-  .header__search {
-    display: none;
   }
 
   .header__left {
@@ -1235,23 +1227,36 @@ header {
     line-height: 15px;
   }
 
+  .banner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .banner__card {
-    margin: 0 20px;
-    margin-top: 35px;
+    margin: 0 23px;
+    margin-top: 60px;
     margin-bottom: 40px;
   }
 
-  .banner__btn {
-    margin-top: 35px;
-    margin-bottom: 0;
-    display: block;
-    width: 100%;
-    text-align: center;
+  .banner__box {
+    padding-bottom: 40px;
   }
 
-  .banner__box {
-    min-height: 270px;
-    padding-bottom: 40px;
+  .swiper-container {
+    min-height: 650px;
+  }
+
+  .swiper {
+    min-height: 650px;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
   }
 
   .banner__discription {
@@ -1269,7 +1274,6 @@ header {
 
   .pazzle__left {
     border: 1px solid var(--color-discription);
-    background-size: contain;
     background-repeat: no-repeat;
   }
 
@@ -1380,9 +1384,9 @@ header {
   }
 
   .btn_transparent {
-    padding: 10px 31px;
+    padding: 7px 41px;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 22px;
   }
 }
@@ -1403,6 +1407,27 @@ header {
     text-align: center;
   }
 
+  .banner__btn {
+    margin-left: 16%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: block;
+    width: 160px;
+    text-align: center;
+  }
+
+  .swiper-container {
+    min-height: 308px;
+  }
+
+  .swiper {
+    min-height: 308px;
+  }
+
+  .pazzle__left__btn {
+    margin-top: 3px;
+  }
+
   .banner__discription {
     margin-top: 15px;
     margin-bottom: 18px;
@@ -1413,12 +1438,37 @@ header {
     text-align: center;
   }
 
+  .how-we-work__main-title {
+    margin-top: 56px;
+    margin-bottom: 22px;
+  }
+
+  .how-we-work__title {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  .how-we-work__discription {
+    margin-bottom: 15px;
+  }
+
+  .how-we-work__btn-more {
+    font-size: 13px;
+  }
+
+  .btn_transparent {
+    padding: 7px 32px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   .pazzle__box {
     padding: 40px 0px 5px 0px;
   }
 
   .footer__container {
-    padding: 40px 12px 80px 12px;
+    padding: 32px 12px 80px 12px;
   }
 
   .footer__center__title {
@@ -1445,8 +1495,8 @@ header {
   }
 
   .footer__left {
-    margin-top: 10px;
-    padding-top: 25px;
+    margin-top: 5px;
+    padding-top: 16px;
     align-items: center;
     border-top: 1px solid #595959;
   }
@@ -1458,16 +1508,18 @@ header {
   }
 
   .footer__icon {
-    width: 35px;
-    height: 35px;
+    width: 42px;
+    height: 42px;
   }
 
   .footer__item:not(:last-child) {
     margin-right: 10px;
   }
-}
+  .banner {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-@media (max-width: 320px) {
   .banner__title {
     font-weight: 800;
     font-size: 20px;
@@ -1489,14 +1541,14 @@ header {
   }
 
   .about-us__title {
-    margin-top: 35px;
+    margin-top: 60px;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
   }
 
   .about-us__discription {
-    margin-top: 5px;
+    margin-top: 20px;
     font-size: 14px;
     line-height: 28px;
     font-weight: 400;
@@ -1510,7 +1562,7 @@ header {
   }
 
   .questions {
-    margin-top: 40px;
+    margin-top: 59px;
   }
 
   .questions__title {
@@ -1522,14 +1574,92 @@ header {
 
   .questions__list {
     margin-top: 13px;
-    margin-bottom: 45px;
+    margin-bottom: 52px;
   }
 
   .questions__discriptions {
     max-width: 243px;
+    padding: 30px 0;
     font-weight: 500;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 25px;
+  }
+
+  .plus {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .banner__title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .banner__discription {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .banner__btn {
+    padding: 12px 15px;
+  }
+
+  .about-us__title {
+    margin-top: 60px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about-us__discription {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .pazzle__left__discription {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--font-color);
+  }
+
+  .questions {
+    margin-top: 59px;
+  }
+
+  .questions__title {
+    white-space: pre-wrap;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .questions__list {
+    margin-top: 13px;
+    margin-bottom: 52px;
+  }
+
+  .questions__discriptions {
+    max-width: 243px;
+    padding: 30px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .plus {
